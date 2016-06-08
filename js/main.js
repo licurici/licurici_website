@@ -5,7 +5,7 @@ $(function() {
 
 function addLeafs() {
   var width = $(window).width();
-  var density = 50;
+  var density = 10;
   var count = parseInt(width / density) + 5;
 
   for(var i=0; i<count; i++) {
