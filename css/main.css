@@ -1,8 +1,49 @@
-
-
+html, body {
+  height: 100%
+}
 
 .text-columns {
   -webkit-column-count: 3; /* Chrome, Safari, Opera */
   -moz-column-count: 3; /* Firefox */
   column-count: 3;
+}
+
+#intro {
+  background: #20254D;
+  color: #fff;
+}
+
+#leafs {
+  font-size: 0;
+  white-space: nowrap;
+  position: relative;
+
+  height: 180px;
+
+  overflow: hidden;
+}
+
+.leaf {
+  width: 100px;
+  position: absolute;
+  bottom: 0;
+
+  -webkit-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+
+  transform-origin: 50% 100%;
+}
+
+.leafsBg {
+  background: #8BC53F;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 50%;
+}
+
+#fireflies {
+  background: #8BC53F;
+  min-height: 100%;
 }
