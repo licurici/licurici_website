@@ -1,53 +1,39 @@
 html, body {
   height: 100%;
 
-  background: #20254D;
-  color: #fff;
+  background:  #ffffff  ;
+  color:  #000000;
 }
 
 .text-columns {
   -webkit-column-count: 3; /* Chrome, Safari, Opera */
   -moz-column-count: 3; /* Firefox */
   column-count: 3;
+  font-size: 21px;
 }
 
-#leafs {
-  font-size: 0;
-  white-space: nowrap;
+#title, #intro {
   position: relative;
-
-  height: 250px;
-
-  overflow: hidden;
 }
 
-.leafsBg {
-  background: #443115;
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  height: 20%;
+
+
+@font-face {
+    font-family: "Berlin Sans FB";
+    src: url('../fonts/Berlin Sans FB Regular.ttf') format("truetype");
+}
+@media (max-device-width: 800px) {
+  .text-columns {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+  }
 }
 
-.leaf {
-  width: 20px;
-  position: absolute;
-  bottom: 0;
-
-  -webkit-transition: all 1s ease-out;
-  transition: all 1s ease-out;
-
-  transform-origin: 50% 100%;
-}
-
-#root {
-  height: 100%;
-  position: absolute;
-  right: 0;
-}
-
-#about {
-  background: #443115;
-  height: 100%;
+@media (max-device-width: 500px) {
+  .text-columns {
+    -webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+  }
 }
