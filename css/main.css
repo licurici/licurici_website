@@ -37,3 +37,18 @@ html, body {
     column-count: 1;
   }
 }
+
+h2 {
+  font-size: 32px;
+  font-family: "Berlin Sans FB";
+}
+
+#img-firefly {
+  width: 50%;
+  height: 50%;
+}
+
+iframe {
+ width: "560px";
+ height: "315px";
+}
