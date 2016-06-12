@@ -14,10 +14,10 @@
 
 @keyframes leaf2 {
     0% {transform: rotate(0deg);}
-    40% {transform: rotate(6deg);}
-    50% {transform: rotate(4deg);}
-    70% {transform: rotate(5deg);}
-    80% {transform: rotate(4deg);}
+    44% {transform: rotate(5deg);}
+    53% {transform: rotate(3deg);}
+    70% {transform: rotate(4deg);}
+    84% {transform: rotate(3deg);}
     100% {transform: rotate(0deg);}
 }
 
@@ -145,7 +145,7 @@ iframe {
 #_804877117344 {
   transform-origin: 100% 0%;
 
-  animation-name: leaf2;
+  animation-name: leaf1;
   animation-duration: 7s;
   animation-iteration-count: infinite;
 }
@@ -153,7 +153,40 @@ iframe {
 #_804877120704 {
   transform-origin: 100% 100%;
 
+  animation-name: leaf2;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+
+
+#_804662099072 {
+  transform-origin: 0% 100%;
+
+  animation-name: leaf2;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+
+#_804662089632 {
+  transform-origin: 8% 0%;
+
   animation-name: leaf1;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+
+#_804662081120 {
+  transform-origin: 0% 100%;
+
+  animation-name: leaf1;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+
+#leaf4branch3 {
+  transform-origin: 0% 0%;
+
+  animation-name: leaf2;
   animation-duration: 7s;
   animation-iteration-count: infinite;
 }
