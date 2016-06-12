@@ -5,19 +5,34 @@
 
 @keyframes leaf1 {
     0% {transform: rotate(0deg);}
-    60% {transform: rotate(10deg);}
+    40% {transform: rotate(10deg);}
+    50% {transform: rotate(8deg);}
+    70% {transform: rotate(10deg);}
+    80% {transform: rotate(9deg);}
     100% {transform: rotate(0deg);}
 }
 
 @keyframes leaf2 {
     0% {transform: rotate(0deg);}
-    60% {transform: rotate(6deg);}
+    40% {transform: rotate(6deg);}
+    50% {transform: rotate(4deg);}
+    70% {transform: rotate(5deg);}
+    80% {transform: rotate(4deg);}
+    100% {transform: rotate(0deg);}
+}
+
+@keyframes leaf3 {
+    0% {transform: rotate(0deg);}
+    40% {transform: rotate(-15deg);}
+    50% {transform: rotate(-12deg);}
+    70% {transform: rotate(-15deg);}
+    80% {transform: rotate(-13deg);}
     100% {transform: rotate(0deg);}
 }
 
 @keyframes firefly {
     0% {opacity: 1;}
-    60% {opacity: 0.5;}
+    60% {opacity: 0.2;}
     100% {opacity: 1;}
 }
 
@@ -54,8 +69,7 @@ h2 {
 }
 
 #img-firefly {
-  width: 50%;
-  height: 50%;
+  width: 100%;
 }
 
 iframe {
@@ -67,7 +81,7 @@ iframe {
   transform-origin: 1% 4%;
 
   animation-name: leaf1;
-  animation-duration: 20s;
+  animation-duration: 7s;
   animation-iteration-count: infinite;
 }
 
@@ -75,7 +89,72 @@ iframe {
   transform-origin: 0% 1%;
 
   animation-name: leaf2;
-  animation-duration: 19s;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+
+#_804834122112 {
+  transform-origin: 0% 1%;
+
+  animation-name: leaf2;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+
+#_804834117280 {
+  transform-origin: 0% 1%;
+
+  animation-name: leaf2;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+
+#_804665616896 {
+  transform-origin: 100% 1%;
+
+  animation-name: leaf3;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+
+
+#_804877119360 {
+  transform-origin: 100% 80%;
+
+  animation-name: leaf1;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+
+#_804877118880 {
+  transform-origin: 100% 10%;
+
+  animation-name: leaf2;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+
+#_804877119232 {
+  transform-origin: 100% 100%;
+
+  animation-name: leaf1;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+
+#_804877117344 {
+  transform-origin: 100% 0%;
+
+  animation-name: leaf2;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+
+#_804877120704 {
+  transform-origin: 100% 100%;
+
+  animation-name: leaf1;
+  animation-duration: 7s;
   animation-iteration-count: infinite;
 }
 
