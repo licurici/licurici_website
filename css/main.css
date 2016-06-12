@@ -282,6 +282,9 @@ iframe {
   animation-iteration-count: infinite;
 }
 
+.icon {
+  width: 60px;
+}
 
 @media (max-width: 800px) {
   .text-columns {
