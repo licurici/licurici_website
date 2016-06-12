@@ -286,6 +286,10 @@ iframe {
   width: 60px;
 }
 
+p {
+  margin-bottom: 20px;
+}
+
 @media (max-width: 800px) {
   .text-columns {
     -webkit-column-count: 2; /* Chrome, Safari, Opera */
