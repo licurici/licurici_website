@@ -65,6 +65,12 @@ html, body {
   column-count: 3;
   font-size: 18px;
 }
+.us-columns {
+  -webkit-column-count: 4; /* Chrome, Safari, Opera */
+  -moz-column-count: 4; /* Firefox */
+  column-count: 4;
+  font-size: 18px;
+}
 
 #title, #intro {
   position: relative;
@@ -288,6 +294,11 @@ iframe {
 
 p {
   margin-bottom: 20px;
+}
+
+.img-circle {
+    border-radius: 50%;
+
 }
 
 @media (max-width: 800px) {
