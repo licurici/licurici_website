@@ -3,6 +3,24 @@
     src: url('../fonts/Berlin Sans FB Regular.ttf') format("truetype");
 }
 
+@keyframes leaf1 {
+    0% {transform: rotate(0deg);}
+    60% {transform: rotate(10deg);}
+    100% {transform: rotate(0deg);}
+}
+
+@keyframes leaf2 {
+    0% {transform: rotate(0deg);}
+    60% {transform: rotate(6deg);}
+    100% {transform: rotate(0deg);}
+}
+
+@keyframes firefly {
+    0% {opacity: 1;}
+    60% {opacity: 0.5;}
+    100% {opacity: 1;}
+}
+
 html, body {
   height: 100%;
 
@@ -43,6 +61,41 @@ h2 {
 iframe {
  width: 100%;
  height: auto;
+}
+
+#_804834097120 {
+  transform-origin: 1% 4%;
+
+  animation-name: leaf1;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+
+#_804834104032 {
+  transform-origin: 0% 1%;
+
+  animation-name: leaf2;
+  animation-duration: 19s;
+  animation-iteration-count: infinite;
+}
+
+.firefly1 {
+  animation-name: firefly;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+
+.firefly2 {
+  animation-name: firefly;
+  animation-duration: 2.8s;
+  animation-iteration-count: infinite;
+}
+
+.firefly3 {
+  animation-name: firefly;
+  animation-duration: 3.2s;
+  animation-iteration-count: infinite;
 }
 
 @media (max-width: 800px) {
