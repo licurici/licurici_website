@@ -7,6 +7,12 @@ $(function() {
     loadSvg(element, path, function () {
     });
   });
+
+  $(window).resize(function() {
+    var size = $(".container").width() + ($(window).width() - $(".container").width()) / 2;
+
+    $(".branch svg").css("max-width", size);
+  }).resize();
 });
 
 

@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Berlin Sans FB";
+    src: url('../fonts/Berlin Sans FB Regular.ttf') format("truetype");
+}
+
 html, body {
   height: 100%;
 
@@ -16,31 +21,18 @@ html, body {
   position: relative;
 }
 
-
-
-@font-face {
-    font-family: "Berlin Sans FB";
-    src: url('../fonts/Berlin Sans FB Regular.ttf') format("truetype");
-}
-@media (max-device-width: 800px) {
-  .text-columns {
-    -webkit-column-count: 2; /* Chrome, Safari, Opera */
-    -moz-column-count: 2; /* Firefox */
-    column-count: 2;
-  }
-}
-
-@media (max-device-width: 500px) {
-  .text-columns {
-    -webkit-column-count: 1; /* Chrome, Safari, Opera */
-    -moz-column-count: 1; /* Firefox */
-    column-count: 1;
-  }
+.branch.right {
+  width: 100%;
+  text-align: right;
 }
 
 h2 {
   font-size: 32px;
   font-family: "Berlin Sans FB";
+}
+
+#fireflies {
+  position: relative;
 }
 
 #img-firefly {
@@ -51,4 +43,20 @@ h2 {
 iframe {
  width: 100%;
  height: auto;
+}
+
+@media (max-width: 800px) {
+  .text-columns {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+  }
+}
+
+@media (max-width: 500px) {
+  .text-columns {
+    -webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+  }
 }
