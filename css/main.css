@@ -43,8 +43,8 @@ svg:not(:root) {
 html, body {
   height: 100%;
 
-  background:  #ffffff  ;
-  color:  #000000;
+  background:  #392639;
+  color:  #fff;
 }
 
 .text-columns {
