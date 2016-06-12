@@ -36,6 +36,18 @@
     100% {opacity: 1;}
 }
 
+@keyframes waveRight {
+  0% {transform : translate(0px, 0px);}
+  50% {transform : translate(400px, 0px);}
+  100% {transform : translate(0px, 0px);}
+}
+
+@keyframes waveLeft {
+  0% {transform : translate(0px, 0px);}
+  50% {transform : translate(-300px, 0px);}
+  100% {transform : translate(0px, 0px);}
+}
+
 svg:not(:root) {
   overflow: visible;
 }
@@ -199,7 +211,6 @@ iframe {
   animation-iteration-count: infinite;
 }
 
-
 #_804821228336 {
   transform-origin: 0% 100%;
 
@@ -258,6 +269,19 @@ iframe {
   animation-duration: 3.2s;
   animation-iteration-count: infinite;
 }
+
+#wave1, #wave3 {
+  animation-name: waveRight;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+
+#wave2, #wave4 {
+  animation-name: waveLeft;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+
 
 @media (max-width: 800px) {
   .text-columns {
