@@ -199,6 +199,47 @@ iframe {
   animation-iteration-count: infinite;
 }
 
+
+#_804821228336 {
+  transform-origin: 0% 100%;
+
+  animation-name: leaf1;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+
+#_804821220112 {
+  transform-origin: 0% 0%;
+
+  animation-name: leaf2;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+
+#_804821217296 {
+  transform-origin: 0% 0%;
+
+  animation-name: leaf3;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+
+#_804877113024 {
+  transform-origin: 0% 100%;
+
+  animation-name: leaf1;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+
+#_804821215888 {
+  transform-origin: 0% 0%;
+
+  animation-name: leaf3;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+
 .firefly1 {
   animation-name: firefly;
   animation-duration: 3s;
