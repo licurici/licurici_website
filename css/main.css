@@ -59,12 +59,16 @@ html, body {
   color:  #fff;
 }
 
+.row {
+  font-size: 18px;
+}
+
 .text-columns {
   -webkit-column-count: 3; /* Chrome, Safari, Opera */
   -moz-column-count: 3; /* Firefox */
   column-count: 3;
-  font-size: 18px;
 }
+
 .us-columns {
   -webkit-column-count: 4; /* Chrome, Safari, Opera */
   -moz-column-count: 4; /* Firefox */
