@@ -298,7 +298,18 @@ p {
 
 .img-circle {
     border-radius: 50%;
+    width: 50%!important;
+    height: 50%
+}
 
+.authors {
+  background-color: transparent;
+  text-align: center;
+  border: none;
+  color: #FFFFFF!important;
+  box-shadow:none;
+  webkit-box-shadow:none;
+  font-size: 20px;
 }
 
 @media (max-width: 800px) {
