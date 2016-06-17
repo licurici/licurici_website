@@ -99,7 +99,10 @@ h2 {
 }
 
 #img-firefly {
-  width: 100%;
+  width: 95%;
+}
+#img-caption{
+  font-size: 12px;
 }
 
 iframe {
