@@ -48,6 +48,10 @@
   100% {transform : translate(0px, 0px);}
 }
 
+strong {
+  color: #ced63e;
+}
+
 svg:not(:root) {
   overflow: visible;
 }
